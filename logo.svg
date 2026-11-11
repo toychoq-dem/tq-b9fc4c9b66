@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c98a52"/>
+      <stop offset="1" stop-color="#a5683a"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffa25f"/>
+      <stop offset="1" stop-color="#e86f1f"/>
+    </linearGradient>
+    <linearGradient id="mane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f5a524"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f8cff"/>
+      <stop offset="1" stop-color="#6c3cf0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="url(#bg)"/>
+    <g fill="#ffffff" opacity=".13"><rect x="0" y="352" width="64" height="64"/><rect x="128" y="352" width="64" height="64"/><rect x="256" y="352" width="64" height="64"/><rect x="384" y="352" width="64" height="64"/><rect x="64" y="416" width="64" height="64"/><rect x="192" y="416" width="64" height="64"/><rect x="320" y="416" width="64" height="64"/><rect x="448" y="416" width="64" height="64"/><rect x="0" y="480" width="64" height="64"/><rect x="128" y="480" width="64" height="64"/><rect x="256" y="480" width="64" height="64"/><rect x="384" y="480" width="64" height="64"/></g>
+    <rect y="352" width="512" height="4" fill="#ffffff" opacity=".25"/>
+    <circle cx="256" cy="230" r="230" fill="url(#glow)"/>
+    <g transform="translate(36 34) scale(2.2)">
+  <!-- poydevor (shaxmat donasi asosi) -->
+  
+  <path d="M42 182c0-14 10-20 20-22h76c10 2 20 8 20 22z" fill="url(#base)"/>
+  <rect x="50" y="160" width="100" height="10" rx="5" fill="#ffb37a"/>
+  <!-- bo'yin va tana -->
+  <path d="M64 162c-4-26 2-46 14-62l50 4c10 18 14 38 10 58z" fill="url(#fur)"/>
+  <!-- yol (mane) -->
+  <g>
+    <path d="M70 46c-16 8-24 24-22 40 6-6 10-6 14-4-8 8-12 20-10 32 6-6 12-8 18-6-6 10-6 22-2 32l18-50z" fill="url(#mane)"/>
+  </g>
+  <!-- quloqlar -->
+  <path d="M78 52l2-34 22 26z" fill="#a5683a"/>
+  <path d="M83 46l1-18 12 14z" fill="#f3b8a0"/>
+  <path d="M104 46l12-30 12 32z" fill="#b9773f"/>
+  <path d="M110 44l6-16 7 17z" fill="#f3b8a0"/>
+  <!-- bosh -->
+  <ellipse cx="104" cy="84" rx="44" ry="40" fill="url(#fur)"/>
+  <!-- tumshuq -->
+  <ellipse cx="138" cy="108" rx="36" ry="27" fill="#f2c79a"/>
+  <ellipse cx="150" cy="100" rx="4" ry="5.5" fill="#7a4a26"/>
+  <ellipse cx="164" cy="104" rx="3.5" ry="5" fill="#7a4a26"/>
+  <path d="M124 118c8 9 22 10 32 2" stroke="#7a4a26" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M138 121c2 7 10 8 13 2" fill="#ff7a8a"/>
+  <!-- ko'zlar -->
+  <ellipse cx="96" cy="78" rx="15" ry="17" fill="#fff"/>
+  <ellipse cx="124" cy="74" rx="12" ry="14" fill="#fff"/>
+  <circle cx="100" cy="81" r="8.5" fill="#1f2a44"/>
+  <circle cx="127" cy="77" r="7" fill="#1f2a44"/>
+  <circle cx="103" cy="77" r="3" fill="#fff"/>
+  <circle cx="129.5" cy="73.5" r="2.4" fill="#fff"/>
+  
+  <!-- qoshlar va yonoqlar -->
+  <path d="M84 58c6-5 16-6 22-2" stroke="#6b4223" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M117 55c5-3 12-3 16 1" stroke="#6b4223" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="88" cy="102" rx="9" ry="6" fill="#ff8fa3" opacity=".55"/>
+  <!-- kichik toj (shaxmat belgisi) -->
+  <g transform="translate(92 22) rotate(-12)">
+    <path d="M0 18l4-16 8 9 6-11 6 11 8-9 4 16z" fill="#ffd166" stroke="#e0a21c" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="18" cy="0" r="3" fill="#ff5a6b"/>
+  </g>
+
+</g>
+    <path d="M70 92l9 20 22 3-16 15 4 22-19-11-19 11 4-22-16-15 22-3z" fill="#ffd166" stroke="#f0a91c" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M440 70l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#ffffff" opacity=".9"/>
+  </g>
+  <rect x="6" y="6" width="500" height="500" rx="108" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="6"/>
+</svg>

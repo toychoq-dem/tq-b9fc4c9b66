@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <title>Toychoq — Shaxmat maktabi</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <style>
+    :root { --bg: #eef4ff; --card: #fff; --ink: #1d2740; --mute: #5d6a85; --line: #d5deee; --brand: #2f6fe4; --bad: #c62f3b; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #131a2a; --card: #1c2538; --ink: #e8eefb; --mute: #9aa8c4; --line: #33405c; --brand: #6c9bff; --bad: #ff7d86; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px; background: var(--bg);
+      color: var(--ink); font: 16px/1.45 "Segoe UI", system-ui, -apple-system, sans-serif; }
+    .card { width: 100%; max-width: 380px; background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+      padding: 32px 28px 26px; box-shadow: 0 12px 40px rgba(30, 50, 100, .12); }
+    .logo { display: block; width: 84px; height: 84px; margin: 0 auto 14px; }
+    h1 { margin: 0; text-align: center; font-size: 22px; }
+    .sub { margin: 4px 0 24px; text-align: center; color: var(--mute); font-size: 14px; }
+    #msg { min-height: 1.45em; margin: 14px 0 0; text-align: center; font-size: 15px; color: var(--mute); }
+    #msg.bad { color: var(--bad); }
+    .note { margin: 18px 0 0; text-align: center; font-size: 12px; color: var(--mute); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="logo" src="logo.svg" alt="">
+    <h1>Toychoq — Shaxmat maktabi</h1>
+    <p class="sub">Yopiq namoyish</p>
+    <p id="msg" role="status">Tekshirilmoqda…</p>
+    <p class="note">Kompyuterda Google Chrome yoki Microsoft Edge tavsiya etiladi. Havola shaxsiy — boshqalarga bermang.<br>© 2026 Azizbek. Barcha huquqlar himoyalangan.</p>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
